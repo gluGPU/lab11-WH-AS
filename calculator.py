@@ -23,6 +23,12 @@ def add(a, b):
 def sub(a, b):
     return a - b
 
+def div(a, b):
+    if a == 0:
+        raise ZeroDivisionError
+    else:
+        return b / a
+
 def mul(a, b):
     return a * b
 
