@@ -33,7 +33,7 @@ class TestCalculator(unittest.TestCase):
     def test_logarithm(self): # 3 assertions
         self.assertEqual(log(2, 4), 2)
         self.assertEqual(log(3, 27), 3)
-        self.assertEqual(log(2, 32), 2)
+        self.assertEqual(log(2, 32), 5)
 
     def test_log_invalid_base(self): # 1 assertion
     #     # use same technique from test_divide_by_zero
