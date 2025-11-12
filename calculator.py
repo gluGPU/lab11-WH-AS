@@ -22,7 +22,11 @@ def div(a, b):
         raise ZeroDivisionError
     else:
         return b / a
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 5393869171c610b975b38b7d9a696f1ca59a2826
 def log(a, b):
     if a < 0:
         raise ValueError
@@ -30,5 +34,9 @@ def log(a, b):
         return math.log(b, a)
     
 def exp(a, b):
+<<<<<<< HEAD
     return a ** b
     
+=======
+    return a**b
+>>>>>>> 5393869171c610b975b38b7d9a696f1ca59a2826
