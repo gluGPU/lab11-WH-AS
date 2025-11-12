@@ -1,3 +1,7 @@
+# https://github.com/gluGPU/lab11-WH-AS/tree/main
+# Partner 1: Will Hudspeth
+# Partner 2: Amana Southichack
+
 import unittest
 from calculator import *
 
